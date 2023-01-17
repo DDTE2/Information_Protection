@@ -1,0 +1,14 @@
+{
+    "C:\\Base Cheat 2.0": [
+        "FFDEC.lnk"
+    ],
+    "C:\\Base Cheat 2.0\\clearmod_for_melissa\\clearmod for melissa\\Profiles\\5o6ujs2g.default\\Cache\\3\\F6": [
+        "6FF39d01"
+    ],
+    "C:\\Base Cheat 2.0\\clearmod_for_melissa\\clearmod for melissa\\Profiles\\5o6ujs2g.default\\Cache\\7\\09": [
+        "1DFF9d01"
+    ],
+    "C:\\Base Cheat 2.0\\clearmod_for_melissa\\clearmod for melissa\\Profiles\\5o6ujs2g.default\\Cache\\C\\9A": [
+        "21FF8d01"
+    ]
+}
