@@ -2,6 +2,7 @@
 from os import walk
 from os.path import relpath
 from json import dumps
+from data_save import data_save
 
 path = input('Директория:\n')
 name = input('Расширение файла:\n')
@@ -15,7 +16,9 @@ for root,dir,files in walk(path):
             else:
                 res[root] = [file]
 
-with open('Результаты/' + relpath(__file__)[:-3] + '.json', 'w', encoding='windows-1251') as save:
-    save.write(dumps(res, sort_keys=True, indent=4, ensure_ascii=False))
+data_save(folder=relpath(__file__)[:-3],
+          file_format='json',
+          wrire_mode='w',
+          data=dumps(res, sort_keys=True, indent=4, ensure_ascii=False))
 
 
