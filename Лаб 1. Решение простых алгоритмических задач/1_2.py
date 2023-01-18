@@ -1,4 +1,4 @@
-## Поиск файлов, имеющих определенный тип
+# Поиск файлов, имеющих определенный тип
 from os import walk
 from os.path import relpath
 from json import dumps
