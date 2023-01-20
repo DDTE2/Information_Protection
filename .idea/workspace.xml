@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c64f3301-6e00-4dca-badc-593dc9d97f67" name="Changes" comment="1_6, 1_9, 1_10">
+    <list default="true" id="c64f3301-6e00-4dca-badc-593dc9d97f67" name="Changes" comment="Первая версия 1_12">
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Лаб 1. Решение простых алгоритмических задач/1_12.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674023708103</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Первая версия 1_12">
+      <created>1674195327378</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674195327379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1_6, 1_9, 1_10" />
-    <option name="LAST_COMMIT_MESSAGE" value="1_6, 1_9, 1_10" />
+    <MESSAGE value="Первая версия 1_12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первая версия 1_12" />
   </component>
 </project>
