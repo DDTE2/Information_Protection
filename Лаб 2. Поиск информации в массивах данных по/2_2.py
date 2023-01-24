@@ -1,6 +1,5 @@
 from urllib.request import urlopen
 from re import findall
-from json import dumps
 from data_save import data_save
 from os.path import relpath
 
