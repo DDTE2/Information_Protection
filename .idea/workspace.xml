@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de1767d-e6c1-4827-a97f-93c4f3af6b20" name="Changes" comment="2_4, 2_7_2">
-      <change afterPath="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по/2_9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по/files/ip/generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Шифрование/Miller_Rabin_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по/2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по/2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Лаб 1. Решение простых алгоритмических задач/1_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Лаб 1. Решение простых алгоритмических задач/1_9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +40,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/Математика/Перестановки" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Лаб 1. Решение простых алгоритмических задач" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Защита информации\Лаб 1. Решение простых алгоритмических задач" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Защита информации\Шифрование" />
       <recent name="E:\Защита информации\Лаб 2. Поиск информации в массивах данных по" />
       <recent name="E:\Защита информации\Лаб 2. Поиск информации в массивах данных по\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2_9">
+  <component name="RunManager" selected="Python.Miller_Rabin_test">
     <configuration name="1_12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Защита информации" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,27 +66,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Лаб 1. Решение простых алгоритмических задач/1_12.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Защита информации" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по/2_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,6 +116,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Miller_Rabin_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Защита информации" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Шифрование" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Шифрование/Miller_Rabin_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="generation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Защита информации" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Miller_Rabin_test" />
         <item itemvalue="Python.2_9" />
         <item itemvalue="Python.generation" />
         <item itemvalue="Python.2_7_2" />
         <item itemvalue="Python.1_12" />
-        <item itemvalue="Python.2_4" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674559554095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2_4, 2_7_2">
+      <created>1674562029364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674562029364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
