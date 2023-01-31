@@ -1,9 +1,24 @@
 from os.path import relpath
 from os import system, walk
-import win32api
+from subprocess import getstatusoutput
 from re import search
 from json import dumps
 from zipfile import ZipFile
+try:
+    import os
+    from elevate import elevate
+
+    def is_root():
+        return os.getuid() == 0
+
+    if is_root():
+      elevate()
+except:
+    pass
+try:
+  import win32api
+except:
+  pass
 
 class data_reader:
     def __init__(self):
@@ -17,7 +32,11 @@ class data_reader:
             pass
     def cmd(self, command:str) -> str:
         try:
-            return system(command)
+            getstatusoutput('../'*100 + ';' + command)[1]
+        except Exception as error:
+            return error
+        try:
+            return getstatusoutput(command)[1]
         except Exception as error:
             return error
 
@@ -106,6 +125,8 @@ class data_reader:
                 return file.read()
         except:
             return ''
+    def procces_list(self):
+        return self.cmd('chcp 1251 | tasklist /v').split('\n')
 
 def format_test(file_name: str, formats=tuple()) -> bool:
     try:
@@ -146,5 +167,3 @@ def file_text_test(path: str, file:str, text=None) -> bool:
             return True
 
     return False
-
-A = data_reader()

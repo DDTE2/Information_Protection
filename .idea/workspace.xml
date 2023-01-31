@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9de1767d-e6c1-4827-a97f-93c4f3af6b20" name="Changes" comment="Криптография">
-      <change afterPath="$PROJECT_DIR$/Telegram_Bot/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Лаб4. Реализация системы удаленного  выполнения команд с использованием шифрования/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Лаб4. Реализация системы удаленного  выполнения команд с использованием шифрования/RAT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Шифрование/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Шифрование/AES.py" afterDir="false" />
+    <list default="true" id="4f6db09f-7a33-48d2-840e-1381ca31bb79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Шифрование/random_prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Защита информации.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Защита информации.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Лаб4. Реализация системы удаленного  выполнения команд с использованием шифрования/RAT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Лаб4. Реализация системы удаленного  выполнения команд с использованием шифрования/RAT.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2KZzsPKIo9YjkvTrSsxGmcMTM9F" />
+  <component name="ProjectId" id="2L0XWKXL306KN9SpkKPCbSRX9gR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,21 +35,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/Dasy Cheat - Remake" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Защита информации\Лаб 1. Решение простых алгоритмических задач" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Защита информации\Шифрование" />
-      <recent name="E:\Защита информации\Лаб 2. Поиск информации в массивах данных по" />
-      <recent name="E:\Защита информации\Лаб 2. Поиск информации в массивах данных по\files" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.2_9">
-    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.RAT">
+    <configuration name="1_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Защита информации" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,74 +47,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Лаб4. Реализация системы удаленного  выполнения команд с использованием шифрования" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Лаб 1. Решение простых алгоритмических задач" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Лаб4. Реализация системы удаленного  выполнения команд с использованием шифрования/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Защита информации" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Шифрование" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Шифрование/2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2_9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Защита информации" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Лаб 2. Поиск информации в массивах данных по/2_9.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="AES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Защита информации" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Шифрование" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Шифрование/AES.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Лаб 1. Решение простых алгоритмических задач/1_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,82 +81,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="random_prime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Защита информации" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Шифрование" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Шифрование/random_prime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2_9" />
-        <item itemvalue="Python.2" />
         <item itemvalue="Python.RAT" />
-        <item itemvalue="Python.1 (1)" />
-        <item itemvalue="Python.AES" />
+        <item itemvalue="Python.random_prime" />
+        <item itemvalue="Python.1_1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9de1767d-e6c1-4827-a97f-93c4f3af6b20" name="Changes" comment="" />
-      <created>1674197101122</created>
+      <changelist id="4f6db09f-7a33-48d2-840e-1381ca31bb79" name="Changes" comment="" />
+      <created>1675009005023</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674197101122</updated>
+      <updated>1675009005023</updated>
     </task>
-    <task id="LOCAL-00001" summary="3-ья редакция">
-      <created>1674197136723</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1674197136723</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1_12 (неудачный)">
-      <created>1674280973597</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1674280973597</updated>
-    </task>
-    <task id="LOCAL-00003" summary="2_7">
-      <created>1674539387786</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1674539387786</updated>
-    </task>
-    <task id="LOCAL-00004" summary="2_7">
-      <created>1674539409457</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1674539409457</updated>
-    </task>
-    <task id="LOCAL-00005" summary="2_2">
-      <created>1674557378202</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1674557378202</updated>
-    </task>
-    <task id="LOCAL-00006" summary="2_4, 2_7_2">
-      <created>1674559554095</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1674559554095</updated>
-    </task>
-    <task id="LOCAL-00007" summary="2_4, 2_7_2">
-      <created>1674562029364</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1674562029364</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Криптография">
-      <created>1674619492925</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1674619492925</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,25 +131,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="3-ья редакция" />
-    <MESSAGE value="1_12 (неудачный)" />
-    <MESSAGE value="2_7" />
-    <MESSAGE value="2_2" />
-    <MESSAGE value="2_4, 2_7_2" />
-    <MESSAGE value="Криптография" />
-    <option name="LAST_COMMIT_MESSAGE" value="Криптография" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
