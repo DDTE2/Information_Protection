@@ -1,0 +1,999 @@
+Header
+======
+Magic     CPU Type  CPU subtype    File type      NCMDS     Sizeof cmds    Reserved  Flags     
+MAGIC_64  x86_64    80000003       EXECUTE        10        7d8            0         NOUNDEFS DYLDLINK TWOLEVEL PIE
+
+Commands
+========
+Command : SEGMENT_64
+Offset  : 20
+Size    : 48
+__PAGEZERO     0              100000000      0              0              0              0              0              0              
+Sections in this segment :
+
+Command : SEGMENT_64
+Offset  : 68
+Size    : 228
+__TEXT         100000000      6000           0              6000           7              5              6              0              
+Sections in this segment :
+	__text           __TEXT           100001778 3635      1778      2         REGULAR                       0                   0                   0         0         0         SOME_INSTRUCTIONS PURE_INSTRUCTIONS
+	__stubs          __TEXT           100004dae 1bc       4dae      1         SYMBOL_STUBS                  0                   0                   0         6         0         SOME_INSTRUCTIONS PURE_INSTRUCTIONS
+	__stub_helper    __TEXT           100004f6c 2f4       4f6c      2         REGULAR                       0                   0                   0         0         0         SOME_INSTRUCTIONS PURE_INSTRUCTIONS
+	__cstring        __TEXT           100005260 568       5260      3         CSTRING_LITERALS              0                   0                   0         0         0                   
+	__unwind_info    __TEXT           1000057c8 a0        57c8      0         REGULAR                       0                   0                   0         0         0                   
+	__eh_frame       __TEXT           100005868 798       5868      3         REGULAR                       0                   0                   0         0         0                   
+
+Command : SEGMENT_64
+Offset  : 290
+Size    : 2c8
+__DATA         100006000      1000           6000           1000           7              3              8              0              
+Sections in this segment :
+	__program_vars   __DATA           100006000 28        6000      4         REGULAR                       0                   0                   0         0         0                   
+	__got            __DATA           100006028 28        6028      3         NON_LAZY_SYMBOL_POINTERS      0                   0                   4a        0         0                   
+	__nl_symbol_ptr  __DATA           100006050 10        6050      3         NON_LAZY_SYMBOL_POINTERS      0                   0                   4f        0         0                   
+	__la_symbol_ptr  __DATA           100006060 250       6060      3         LAZY_SYMBOL_POINTERS          0                   0                   51        0         0                   
+	__data           __DATA           1000062b0 2c        62b0      4         REGULAR                       0                   0                   0         0         0                   
+	__const          __DATA           1000062e0 228       62e0      4         REGULAR                       0                   0                   0         0         0                   
+	__common         __DATA           100006508 ac        0         3         ZEROFILL                      0                   0                   0         0         0                   
+	__bss            __DATA           1000065c0 c8        0         4         ZEROFILL                      0                   0                   0         0         0                   
+
+Command : SEGMENT_64
+Offset  : 558
+Size    : 48
+__LINKEDIT     100007000      3000           7000           2aa0           7              1              0              0              
+Sections in this segment :
+
+Command : DYLD_INFO_ONLY
+Offset  : 5a0
+Size    : 30
+Type       Offset    Size
+Rebase:    7000      18
+Bind:      7018      68
+Weak bind: 0         0
+Lazy bind: 7080      538
+Export:    75b8      410
+Binding Info #0
+================
+Class:       STANDARD
+Type:        POINTER
+Address: 0x  100006028
+Symbol:      __DefaultRuneLocale
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #1
+================
+Class:       STANDARD
+Type:        POINTER
+Address: 0x  100006030
+Symbol:      ___stack_chk_guard
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #2
+================
+Class:       STANDARD
+Type:        POINTER
+Address: 0x  100006038
+Symbol:      ___stderrp
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #3
+================
+Class:       STANDARD
+Type:        POINTER
+Address: 0x  100006040
+Symbol:      ___stdoutp
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #4
+================
+Class:       STANDARD
+Type:        POINTER
+Address: 0x  100006048
+Symbol:      _optind
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #5
+================
+Class:       STANDARD
+Type:        POINTER
+Address: 0x  100006050
+Symbol:      dyld_stub_binder
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #6
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006060
+Symbol:      ___error
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #7
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006068
+Symbol:      ___maskrune
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #8
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006070
+Symbol:      ___snprintf_chk
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #9
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006078
+Symbol:      ___stack_chk_fail
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #10
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006080
+Symbol:      ___tolower
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #11
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006088
+Symbol:      _acl_free
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #12
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006090
+Symbol:      _acl_get_entry
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #13
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006098
+Symbol:      _acl_get_flag_np
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #14
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060a0
+Symbol:      _acl_get_flagset_np
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #15
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060a8
+Symbol:      _acl_get_link_np
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #16
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060b0
+Symbol:      _acl_get_perm_np
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #17
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060b8
+Symbol:      _acl_get_permset
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #18
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060c0
+Symbol:      _acl_get_qualifier
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #19
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060c8
+Symbol:      _acl_get_tag_type
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #20
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060d0
+Symbol:      _atoi
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #21
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060d8
+Symbol:      _compat_mode
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #22
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060e0
+Symbol:      _err
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #23
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060e8
+Symbol:      _exit
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #24
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060f0
+Symbol:      _fflagstostr
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #25
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000060f8
+Symbol:      _fprintf
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #26
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006100
+Symbol:      _fputs
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #27
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006108
+Symbol:      _free
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #28
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006110
+Symbol:      _fts_children$INODE64
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #29
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006118
+Symbol:      _fts_close$INODE64
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #30
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006120
+Symbol:      _fts_open$INODE64
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #31
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006128
+Symbol:      _fts_read$INODE64
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #32
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006130
+Symbol:      _fts_set$INODE64
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #33
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006138
+Symbol:      _getbsize
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #34
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006140
+Symbol:      _getenv
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #35
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006148
+Symbol:      _getgrgid
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #36
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006150
+Symbol:      _getopt
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #37
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006158
+Symbol:      _getpid
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #38
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006160
+Symbol:      _getpwuid
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #39
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006168
+Symbol:      _getuid
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #40
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006170
+Symbol:      _getxattr
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #41
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006178
+Symbol:      _group_from_gid
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #42
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006180
+Symbol:      _humanize_number
+Segment:     __DATA
+Library:     /usr/lib/libutil.dylib
+
+Binding Info #43
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006188
+Symbol:      _ioctl
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #44
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006190
+Symbol:      _isatty
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #45
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006198
+Symbol:      _kill
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #46
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061a0
+Symbol:      _listxattr
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #47
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061a8
+Symbol:      _localtime
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #48
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061b0
+Symbol:      _malloc
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #49
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061b8
+Symbol:      _mbr_uuid_to_id
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #50
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061c0
+Symbol:      _mbr_uuid_to_string
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #51
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061c8
+Symbol:      _mbrtowc
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #52
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061d0
+Symbol:      _memchr
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #53
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061d8
+Symbol:      _nl_langinfo
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #54
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061e0
+Symbol:      _printf
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #55
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061e8
+Symbol:      _putchar
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #56
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061f0
+Symbol:      _readlink
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #57
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000061f8
+Symbol:      _realloc
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #58
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006200
+Symbol:      _setenv
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #59
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006208
+Symbol:      _setlocale
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #60
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006210
+Symbol:      _signal
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #61
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006218
+Symbol:      _snprintf
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #62
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006220
+Symbol:      _sscanf
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #63
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006228
+Symbol:      _strcoll
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #64
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006230
+Symbol:      _strcpy
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #65
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006238
+Symbol:      _strdup
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #66
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006240
+Symbol:      _strerror
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #67
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006248
+Symbol:      _strftime
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #68
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006250
+Symbol:      _strlen
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #69
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006258
+Symbol:      _strmode
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #70
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006260
+Symbol:      _tgetent
+Segment:     __DATA
+Library:     /usr/lib/libncurses.5.4.dylib
+
+Binding Info #71
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006268
+Symbol:      _tgetstr
+Segment:     __DATA
+Library:     /usr/lib/libncurses.5.4.dylib
+
+Binding Info #72
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006270
+Symbol:      _tgoto
+Segment:     __DATA
+Library:     /usr/lib/libncurses.5.4.dylib
+
+Binding Info #73
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006278
+Symbol:      _time
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #74
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006280
+Symbol:      _tputs
+Segment:     __DATA
+Library:     /usr/lib/libncurses.5.4.dylib
+
+Binding Info #75
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006288
+Symbol:      _user_from_uid
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #76
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006290
+Symbol:      _warn
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #77
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  100006298
+Symbol:      _warnx
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #78
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000062a0
+Symbol:      _wcwidth
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Binding Info #79
+================
+Class:       LAZY
+Type:        POINTER
+Address: 0x  1000062a8
+Symbol:      _write
+Segment:     __DATA
+Library:     /usr/lib/libSystem.B.dylib
+
+Export Info #0
+==============
+Node Offset: 18
+Flags:       0
+Address:     0
+Kind:        REGULAR
+Flags:       
+Symbol:      __mh_execute_header
+
+
+Command : SYMTAB
+Offset  : 5d0
+Size    : 18
+
+Command : DYSYMTAB
+Offset  : 5e8
+Size    : 50
+First local symbol index:           0
+Number of local symbols:            1
+External symbol index:              1
+Number of external symbols:         1
+Undefined symbol index:             2
+Number of undefined symbols:        50
+Table of content offset:            0
+Number of entries in TOC:           0
+Module table offset:                0
+Number of entries in module table:  0
+External reference table offset:    0
+Number of external reference:       0
+Indirect symbols offset:            7f20
+Number of indirect symbols:         9b
+External relocation offset:         0
+Number of external relocations:     0
+Local relocation offset:            0
+Number of local relocations:        0
+
+Command : LOAD_DYLINKER
+Offset  : 638
+Size    : 20
+/usr/lib/dyld                      
+Command : UUID
+Offset  : 658
+Size    : 18
+15 77 e9 fe 54 90 3a 3c 92 4f 60 5b 83 de 4c 3b 
+Command : VERSION_MIN_MACOSX
+Offset  : 670
+Size    : 10
+Version:  10.7.0
+SDK:      0.0.0
+
+Command : UNIXTHREAD
+Offset  : 680
+Size    : b8
+Flavor:   0x4
+Count:    0x2a
+PC:       0x100001778
+Command : LOAD_DYLIB
+Offset  : 738
+Size    : 38
+/usr/lib/libncurses.5.4.dylib      2 - 5.4.0 - 5.4.0
+Command : LOAD_DYLIB
+Offset  : 770
+Size    : 30
+/usr/lib/libutil.dylib             2 - 1.0.0 - 1.0.0
+Command : LOAD_DYLIB
+Offset  : 7a0
+Size    : 38
+/usr/lib/libSystem.B.dylib         2 - 159.1.0 - 1.0.0
+Command : FUNCTION_STARTS
+Offset  : 7d8
+Size    : 10
+
+Function starts location:
+Offset  : 0x79c8
+Size    : 0x38
+Functions (37):
+    [0] __TEXT + 1778  
+    [1] __TEXT + 17b4  
+    [2] __TEXT + 17c6  
+    [3] __TEXT + 17db  
+    [4] __TEXT + 1830  
+    [5] __TEXT + 1873  
+    [6] __TEXT + 18c8  
+    [7] __TEXT + 191d  
+    [8] __TEXT + 1972  
+    [9] __TEXT + 19be  
+    [10] __TEXT + 19f8  
+    [11] __TEXT + 1a44  
+    [12] __TEXT + 1a90  
+    [13] __TEXT + 1adc  
+    [14] __TEXT + 1b4a  
+    [15] __TEXT + 23b0  
+    [16] __TEXT + 26a0  
+    [17] __TEXT + 30c8  
+    [18] __TEXT + 3167  
+    [19] __TEXT + 318e  
+    [20] __TEXT + 319b  
+    [21] __TEXT + 3201  
+    [22] __TEXT + 328e  
+    [23] __TEXT + 33f4  
+    [24] __TEXT + 34ac  
+    [25] __TEXT + 356f  
+    [26] __TEXT + 35a9  
+    [27] __TEXT + 36be  
+    [28] __TEXT + 3786  
+    [29] __TEXT + 37ec  
+    [30] __TEXT + 3aa8  
+    [31] __TEXT + 3bf3  
+    [32] __TEXT + 4715  
+    [33] __TEXT + 488b  
+    [34] __TEXT + 48af  
+    [35] __TEXT + 4afa  
+    [36] __TEXT + 4c44  
+
+Command : CODE_SIGNATURE
+Offset  : 7e8
+Size    : 10
+
+Code Signature location:
+Offset  : 0x8550
+Size    : 0x1550
+
+
+Sections
+========
+__text           __TEXT           100001778 3635      1778      2         REGULAR                       0                   0                   0         0         0         SOME_INSTRUCTIONS PURE_INSTRUCTIONS
+__stubs          __TEXT           100004dae 1bc       4dae      1         SYMBOL_STUBS                  0                   0                   0         6         0         SOME_INSTRUCTIONS PURE_INSTRUCTIONS
+__stub_helper    __TEXT           100004f6c 2f4       4f6c      2         REGULAR                       0                   0                   0         0         0         SOME_INSTRUCTIONS PURE_INSTRUCTIONS
+__cstring        __TEXT           100005260 568       5260      3         CSTRING_LITERALS              0                   0                   0         0         0                   
+__unwind_info    __TEXT           1000057c8 a0        57c8      0         REGULAR                       0                   0                   0         0         0                   
+__eh_frame       __TEXT           100005868 798       5868      3         REGULAR                       0                   0                   0         0         0                   
+__program_vars   __DATA           100006000 28        6000      4         REGULAR                       0                   0                   0         0         0                   
+__got            __DATA           100006028 28        6028      3         NON_LAZY_SYMBOL_POINTERS      0                   0                   4a        0         0                   
+__nl_symbol_ptr  __DATA           100006050 10        6050      3         NON_LAZY_SYMBOL_POINTERS      0                   0                   4f        0         0                   
+__la_symbol_ptr  __DATA           100006060 250       6060      3         LAZY_SYMBOL_POINTERS          0                   0                   51        0         0                   
+__data           __DATA           1000062b0 2c        62b0      4         REGULAR                       0                   0                   0         0         0                   
+__const          __DATA           1000062e0 228       62e0      4         REGULAR                       0                   0                   0         0         0                   
+__common         __DATA           100006508 ac        0         3         ZEROFILL                      0                   0                   0         0         0                   
+__bss            __DATA           1000065c0 c8        0         4         ZEROFILL                      0                   0                   0         0         0                   
+
+Symbols
+=======
+radr://5614542                          0         5614542             
+__mh_execute_header                     10        100000000           
+__DefaultRuneLocale                     300       0                   
+___error                                300       0                   
+___maskrune                             300       0                   
+___snprintf_chk                         300       0                   
+___stack_chk_fail                       300       0                   
+___stack_chk_guard                      300       0                   
+___stderrp                              300       0                   
+___stdoutp                              300       0                   
+___tolower                              300       0                   
+_acl_free                               300       0                   
+_acl_get_entry                          300       0                   
+_acl_get_flag_np                        300       0                   
+_acl_get_flagset_np                     300       0                   
+_acl_get_link_np                        300       0                   
+_acl_get_perm_np                        300       0                   
+_acl_get_permset                        300       0                   
+_acl_get_qualifier                      300       0                   
+_acl_get_tag_type                       300       0                   
+_atoi                                   300       0                   
+_compat_mode                            300       0                   
+_err                                    300       0                   
+_exit                                   300       0                   
+_fflagstostr                            300       0                   
+_fprintf                                300       0                   
+_fputs                                  300       0                   
+_free                                   300       0                   
+_fts_children$INODE64                   300       0                   
+_fts_close$INODE64                      300       0                   
+_fts_open$INODE64                       300       0                   
+_fts_read$INODE64                       300       0                   
+_fts_set$INODE64                        300       0                   
+_getbsize                               300       0                   
+_getenv                                 300       0                   
+_getgrgid                               300       0                   
+_getopt                                 300       0                   
+_getpid                                 300       0                   
+_getpwuid                               300       0                   
+_getuid                                 300       0                   
+_getxattr                               300       0                   
+_group_from_gid                         300       0                   
+_humanize_number                        200       0                   
+_ioctl                                  300       0                   
+_isatty                                 300       0                   
+_kill                                   300       0                   
+_listxattr                              300       0                   
+_localtime                              300       0                   
+_malloc                                 300       0                   
+_mbr_uuid_to_id                         300       0                   
+_mbr_uuid_to_string                     300       0                   
+_mbrtowc                                300       0                   
+_memchr                                 300       0                   
+_nl_langinfo                            300       0                   
+_optind                                 300       0                   
+_printf                                 300       0                   
+_putchar                                300       0                   
+_readlink                               300       0                   
+_realloc                                300       0                   
+_setenv                                 300       0                   
+_setlocale                              300       0                   
+_signal                                 300       0                   
+_snprintf                               300       0                   
+_sscanf                                 300       0                   
+_strcoll                                300       0                   
+_strcpy                                 300       0                   
+_strdup                                 300       0                   
+_strerror                               300       0                   
+_strftime                               300       0                   
+_strlen                                 300       0                   
+_strmode                                300       0                   
+_tgetent                                100       0                   
+_tgetstr                                100       0                   
+_tgoto                                  100       0                   
+_time                                   300       0                   
+_tputs                                  100       0                   
+_user_from_uid                          300       0                   
+_warn                                   300       0                   
+_warnx                                  300       0                   
+_wcwidth                                300       0                   
+_write                                  300       0                   
+dyld_stub_binder                        300       0                   
+

@@ -1,0 +1,339 @@
+Dos Header
+==========
+Magic:                        5a4d
+Used Bytes In The LastPage:   90
+File Size In Pages:           3
+Number Of Relocation:         0
+Header Size In Paragraphs:    4
+Minimum Extra Paragraphs:     0
+Maximum Extra Paragraphs:     ffff
+Initial Relative SS:          0
+Initial SP:                   b8
+Checksum:                     0
+Initial IP:                   0
+Initial Relative CS:          0
+Address Of Relocation Table:  40
+Overlay Number:               0
+OEM id:                       0
+OEM info:                     0
+Address Of New Exe Header:    f8
+
+Rich Header
+===========
+Key: ff037912
+  - ID: 0xcc00 Build ID: 0xecc2 Count: 1
+  - ID: 0xc900 Build ID: 0xecc2 Count: 1
+  - ID: 0xd200 Build ID: 0xecc2 Count: 1
+  - ID: 0xcb00 Build ID: 0xc5b4 Count: 2
+  - ID: 0x1000 Build ID: 0x0000 Count: 30
+  - ID: 0xcf00 Build ID: 0xc6f1 Count: 2
+  - ID: 0xce00 Build ID: 0xc6f1 Count: 15
+  - ID: 0xcd00 Build ID: 0xc6f1 Count: 1
+  - ID: 0xcb00 Build ID: 0xc6f1 Count: 3
+
+
+Header
+======
+Signature:                    50 45 0 0 
+Machine:                      ARMNT
+Number Of Sections:           6
+Pointer To Symbol Table:      0
+Number Of Symbols:            0
+Size Of Optional Header:      e0
+Characteristics:              EXECUTABLE_IMAGE - LARGE_ADDRESS_AWARE - CHARA_32BIT_MACHINE
+Time Date Stamp:              536faa0d
+
+Optional Header
+===============
+Magic:                           10b
+Major Linker Version:            b
+Minor Linker Version:            0
+Size Of Code:                    800
+Size Of Initialized Data:        1000
+Size Of Uninitialized Data:      0
+Address Of Entry Point:          12e5
+Base Of Code:                    1000
+Base Of Data:                    2000
+Image Base:                      400000
+Section Alignment:               1000
+File Alignment:                  200
+Major Operating System Version:  6
+Minor Operating System Version:  2
+Major Image Version:             0
+Minor Image Version:             0
+Major Subsystem Version:         6
+Minor Subsystem Version:         2
+Win32 Version Value:             0
+Size Of Image:                   7000
+Size Of Headers:                 400
+CheckSum:                        0
+Subsystem:                       WINDOWS_CUI
+DLL Characteristics:             
+- DYNAMIC_BASE
+- NX_COMPAT
+- TERMINAL_SERVER_AWARE
+Size Of Stack Reserve:           100000
+Size Of Stack Commit:            1000
+Size Of Heap Reserve:            100000
+Size Of Heap Commit:             1000
+Loader Flags:                    0
+Number Of RVA And Size:          10
+
+Data directories
+================
+Data directory "EXPORT_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "IMPORT_TABLE"
+RVA: 0x   21f4
+Size: 0x  3c
+Section:  .rdata
+
+Data directory "RESOURCE_TABLE"
+RVA: 0x   5000
+Size: 0x  1e0
+Section:  .rsrc
+
+Data directory "EXCEPTION_TABLE"
+RVA: 0x   4000
+Size: 0x  90
+Section:  .pdata
+
+Data directory "CERTIFICATE_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "BASE_RELOCATION_TABLE"
+RVA: 0x   6000
+Size: 0x  a8
+Section:  .reloc
+
+Data directory "DEBUG"
+RVA: 0x   20a0
+Size: 0x  38
+Section:  .rdata
+
+Data directory "ARCHITECTURE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "GLOBAL_PTR"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "TLS_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "LOAD_CONFIG_TABLE"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "BOUND_IMPORT"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "IAT"
+RVA: 0x   2000
+Size: 0x  80
+Section:  .rdata
+
+Data directory "DELAY_IMPORT_DESCRIPTOR"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "CLR_RUNTIME_HEADER"
+RVA: 0x   0
+Size: 0x  0
+
+Data directory "RESERVED"
+RVA: 0x   0
+Size: 0x  0
+
+
+Sections
+========
+.text     694       1000      800       400       0         6.33038   CNT_CODE - MEM_EXECUTE - MEM_READ
+.rdata    4ae       2000      600       c00       0         5.06728   CNT_INITIALIZED_DATA - MEM_READ
+.data     24c       3000      200       1200      0         0.307544  CNT_INITIALIZED_DATA - MEM_READ - MEM_WRITE
+.pdata    90        4000      200       1400      0         3.87079   CNT_INITIALIZED_DATA - MEM_READ
+.rsrc     1e0       5000      200       1600      0         4.8538    CNT_INITIALIZED_DATA - MEM_READ
+.reloc    19e       6000      200       1800      0         2.88206   CNT_INITIALIZED_DATA - MEM_DISCARDABLE - MEM_READ
+
+Imports
+=======
+MSVCR110.dll        2250      2020      0         0         
+	 - _initterm                        2326                2326                2cc                 
+	 - __initenv                        2332                2332                19f                 
+	 - _XcptFilter                      233e                233e                159                 
+	 - __set_app_type                   234c                234c                1c6                 
+	 - __setusermatherr                 235e                235e                1c8                 
+	 - _configthreadlocale              2372                2372                210                 
+	 - _fmode                           2388                2388                264                 
+	 - _initterm_e                      2318                2318                2cd                 
+	 - ?terminate@@YAXXZ                239e                239e                139                 
+	 - __crtSetUnhandledExceptionFilter 23b2                23b2                193                 
+	 - _calloc_crt                      23d6                23d6                200                 
+	 - _onexit                          23e4                23e4                3e0                 
+	 - _lock                            23ee                23ee                33a                 
+	 - __dllonexit                      23f6                23f6                196                 
+	 - _unlock                          2404                2404                49d                 
+	 - __C_specific_handler             2300                2300                15d                 
+	 - _exit                            22f8                22f8                249                 
+	 - _cexit                           22ee                22ee                201                 
+	 - exit                             22e6                22e6                58a                 
+	 - _amsg_exit                       22d8                22d8                1ea                 
+	 - __getmainargs                    22c8                22c8                19e                 
+	 - _commode                         2392                2392                20f                 
+	 - printf                           22b0                22b0                5f6                 
+
+KERNEL32.dll        2230      2000      0         0         
+	 - GetSystemTimeAsFileTime          2474                2474                2f1                 
+	 - GetCurrentThreadId               245e                245e                227                 
+	 - GetCurrentProcessId              2448                2448                223                 
+	 - QueryPerformanceCounter          242e                242e                431                 
+	 - DecodePointer                    241e                241e                116                 
+	 - EncodePointer                    240e                240e                13b                 
+	 - GetTickCount64                   248e                248e                30e                 
+
+
+Debug
+=====
+Characteristics:    0
+Timestamp:          536faa0d
+Major version:      0
+Minor version:      0
+Type:               CODEVIEW
+Size of data:       55
+Address of rawdata: 20f8
+Pointer to rawdata: cf8
+
+Code View Signature:  PDB_70
+
+
+Characteristics:    0
+Timestamp:          536faa0d
+Major version:      0
+Minor version:      0
+Type:               VC_FEATURE
+Size of data:       10
+Address of rawdata: 2150
+Pointer to rawdata: d50
+
+
+Relocations
+===========
+1000      94        
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I6     
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12Ie     
+    - HIGHLOW   30    
+    - HIGHLOW   58    
+    - HIGHLOW   5c    
+    - HIGHLOW   a0    
+    - HIGHLOW   a4    
+    - HIGHLOW   a8    
+    - HIGHLOW   ac    
+    - HIGHLOW   b0    
+    - HIGHLOW   1d8   
+    - HIGHLOW   1dc   
+    - HIGHLOW   1e0   
+    - HIGHLOW   1e4   
+    - HIGHLOW   1e8   
+    - HIGHLOW   1ec   
+    - HIGHLOW   1f0   
+    - HIGHLOW   1f4   
+    - HIGHLOW   1f8   
+    - HIGHLOW   1fc   
+    - HIGHLOW   200   
+    - HIGHLOW   204   
+    - HIGHLOW   2a8   
+    - HIGHLOW   2ac   
+    - HIGHLOW   2b0   
+    - HIGHLOW   2b4   
+    - HIGHLOW   2b8   
+    - HIGHLOW   2bc   
+    - HIGHLOW   2c0   
+    - HIGHLOW   2c4   
+    - HIGHLOW   2c8   
+    - HIGHLOW   2cc   
+    - HIGHLOW   2d0   
+    - HIGHLOW   2d4   
+    - HIGHLOW   2d8   
+    - HIGHLOW   2dc   
+    - HIGHLOW   2e0   
+    - HIGHLOW   35c   
+    - HIGHLOW   384   
+    - HIGHLOW   388   
+    - HIGHLOW   3b0   
+    - HIGHLOW   3b4   
+    - HIGHLOW   3f0   
+    - HIGHLOW   3f4   
+    - HIGHLOW   3f8   
+    - HIGHLOW   3fc   
+    - HIGHLOW   480   
+    - HIGHLOW   484   
+    - HIGHLOW   488   
+    - HIGHLOW   48c   
+    - HIGHLOW   490   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I4ac   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I4b8   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I4c4   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I4d0   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I550   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I5a8   
+    - HIGHLOW   634   
+    - HIGHLOW   63c   
+    - HIGHLOW   640   
+    - HIGHLOW   644   
+    - HIGHLOW   648   
+    - HIGHLOW   64c   
+    - HIGHLOW   654   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I658   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I664   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I670   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I67c   
+    - REL | ARM_MOV32T | THUMB_MOV32 | RISCV_LOW12I688   
+    - ABSOLUTE  0     
+
+2000      14        
+    - HIGHLOW   84    
+    - HIGHLOW   90    
+    - HIGHLOW   94    
+    - HIGHLOW   98    
+    - HIGHLOW   d8    
+    - HIGHLOW   dc    
+
+
+Resources
+=========
+  [Directory] ID: 24 - MANIFEST
+    [Directory] ID: 01
+      [Data] ID: 1033 - ENGLISH/ENGLISH_US
+
+Types: MANIFEST
+
+Langs: ENGLISH
+
+Sub-langs: ENGLISH_US
+
+Manifest
+========
+
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+
+
+
+
+Symbols
+=======
+

@@ -1,0 +1,243 @@
+Header
+======
+Magic:                           7f 45 4c 46 
+Class:                           CLASS64
+Endianness:                      LSB
+Version:                         CURRENT
+OS/ABI:                          FREEBSD
+ABI Version:                     0
+Machine type:                    x86_64
+File type:                       EXECUTABLE
+Object file version:             CURRENT
+Entry Point:                     0x4196880
+Program header offset:           0x64
+Section header offset:           6296
+Processor Flag:                  0 
+Header size:                     64
+Size of program header:          56
+Number of program header:        8
+Size of section header:          64
+Number of section headers:       28
+Section Name Table idx:          27
+
+Sections
+========
+                    NULL           0         0         0         0                                                      
+.interp             PROGBITS       400200    15        200       3.74899   ALLOC                         INTERP LOAD    
+.note.tag           NOTE           400218    30        218       2.70795   ALLOC                         LOAD NOTE      
+.hash               HASH           400248    ac        248       1.26143   ALLOC                         LOAD           
+.gnu.hash           GNU_HASH       4002f8    34        2f8       3.39089   ALLOC                         LOAD           
+.dynsym             DYNSYM         400330    240       330       1.33304   ALLOC                         LOAD           
+.dynstr             STRTAB         400570    11d       570       4.45732   ALLOC                         LOAD           
+.gnu.version        HIOS           40068e    30        68e       1.69576   ALLOC                         LOAD           
+.gnu.version_r      GNU_VERNEED    4006c0    40        6c0       2.5036    ALLOC                         LOAD           
+.rela.dyn           RELA           400700    18        700       1.13869   ALLOC INFO_LINK               LOAD           
+.rela.plt           RELA           400718    1b0       718       1.56451   ALLOC INFO_LINK               LOAD           
+.init               PROGBITS       4008c8    13        8c8       3.26083   ALLOC EXECINSTR               LOAD           
+.plt                PROGBITS       4008dc    130       8dc       3.80308   ALLOC EXECINSTR               LOAD           
+.text               PROGBITS       400a10    758       a10       6.11452   ALLOC EXECINSTR               LOAD           
+.fini               PROGBITS       401168    e         1168      3.23593   ALLOC EXECINSTR               LOAD           
+.rodata             PROGBITS       401180    38        1180      3.86623   ALLOC                         LOAD           
+.eh_frame_hdr       PROGBITS       4011b8    3c        11b8      3.22253   ALLOC                         LOAD GNU_EH_FRAME
+.eh_frame           ARM_EXIDX      4011f8    ec        11f8      4.33039   ALLOC                         LOAD           
+.ctors              PROGBITS       6012e8    10        12e8      1         WRITE ALLOC                   LOAD           
+.dtors              PROGBITS       6012f8    10        12f8      1         WRITE ALLOC                   LOAD           
+.jcr                PROGBITS       601308    8         1308      -0        WRITE ALLOC                   LOAD           
+.dynamic            DYNAMIC        601310    1a0       1310      1.50901   WRITE ALLOC                   LOAD DYNAMIC   
+.got.plt            PROGBITS       6014b0    a8        14b0      2.05161   WRITE ALLOC                   LOAD           
+.data               PROGBITS       601558    19        1558      1.18631   WRITE ALLOC                   LOAD           
+.bss                NOBITS         601580    48        1571      4.79537   WRITE ALLOC                   LOAD           
+.comment            PROGBITS       0         231       1571      5.1175    MERGE STRINGS                                
+.gnu_debuglink      PROGBITS       0         10        17a2      3.75                                                   
+.shstrtab           STRTAB         0         e1        17b2      4.23194                                                
+
+Segments
+========
+PHDR              r-x       40        400040    400040    1c0       1c0       8         
+
+INTERP            r--       200       400200    400200    15        15        1         
+Sections in this segment :
+	.interp
+
+LOAD              r-x       0         400000    400000    12e4      12e4      200000    
+Sections in this segment :
+	.interp
+	.note.tag
+	.hash
+	.gnu.hash
+	.dynsym
+	.dynstr
+	.gnu.version
+	.gnu.version_r
+	.rela.dyn
+	.rela.plt
+	.init
+	.plt
+	.text
+	.fini
+	.rodata
+	.eh_frame_hdr
+	.eh_frame
+
+LOAD              rw-       12e8      6012e8    6012e8    289       2e0       200000    
+Sections in this segment :
+	.ctors
+	.dtors
+	.jcr
+	.dynamic
+	.got.plt
+	.data
+	.bss
+
+DYNAMIC           rw-       1310      601310    601310    1a0       1a0       8         
+Sections in this segment :
+	.dynamic
+
+NOTE              r--       218       400218    400218    30        30        4         
+Sections in this segment :
+	.note.tag
+
+GNU_EH_FRAME      r--       11b8      4011b8    4011b8    3c        3c        4         
+Sections in this segment :
+	.eh_frame_hdr
+
+GNU_STACK         rw-       0         0         0         0         0         8         
+
+
+Dynamic entries
+===============
+NEEDED              15        libc.so.7 
+INIT                4008c8    
+FINI                401168    
+HASH                400248    
+GNU_HASH            4002f8    
+STRTAB              400570    
+SYMTAB              400330    
+STRSZ               11d       
+SYMENT              18        
+DEBUG               0         
+PLTGOT              6014b0    
+PLTRELSZ            1b0       
+PLTREL              7         
+JMPREL              400718    
+RELA                400700    
+RELASZ              18        
+RELAENT             18        
+VERNEED             4006c0    
+VERNEEDNUM          1         
+VERSYM              40068e    
+NULL                0         
+
+Dynamic symbols
+===============
+                              NOTYPE    LOCAL     0         0         000001B228490670
+malloc                        FUNC      GLOBAL    0         bef       000001B228490870
+cap_ioctls_limit              FUNC      GLOBAL    0         11        000001B228490470
+cap_rights_limit              FUNC      GLOBAL    0         11        000001B2284905B0
+_Jv_RegisterClasses           NOTYPE    WEAK      0         0         000001B228490410
+atexit                        FUNC      GLOBAL    0         47        000001B228490310
+err                           FUNC      GLOBAL    0         92        000001B228490730
+strerror                      FUNC      GLOBAL    0         2d        000001B2284905D0
+_init_tls                     FUNC      GLOBAL    0         6         000001B228490770
+cap_fcntls_limit              FUNC      GLOBAL    0         11        000001B228490790
+strlen                        FUNC      GLOBAL    0         db        000001B228490510
+__cap_rights_set              FUNC      GLOBAL    0         e1        000001B228490530
+cap_enter                     FUNC      GLOBAL    0         11        000001B2284907D0
+__stack_chk_fail              FUNC      GLOBAL    0         10        000001B228490430
+__error                       FUNC      GLOBAL    0         b         000001B228490450
+__cap_rights_init             FUNC      GLOBAL    0         df        000001B2284905F0
+exit                          FUNC      GLOBAL    0         36        000001B228490250
+write                         FUNC      GLOBAL    0         e         000001B2284902B0
+writev                        FUNC      GLOBAL    0         e         000001B2284906F0
+strcmp                        FUNC      GLOBAL    0         7e        000001B228490270
+environ                       OBJECT    GLOBAL    6015c0    8         000001B2284903D0
+__stack_chk_guard             OBJECT    GLOBAL    601580    40        000001B228490810
+_end                          NOTYPE    GLOBAL    6015c8    0         000001B228490610
+__progname                    OBJECT    GLOBAL    601558    8         000001B228490650
+
+Static symbols
+==============
+
+Symbol versions
+===============
+* Local *
+FBSD_1.0(2)
+FBSD_1.3(3)
+FBSD_1.3(3)
+* Local *
+FBSD_1.0(2)
+FBSD_1.0(2)
+FBSD_1.0(2)
+FBSD_1.0(2)
+FBSD_1.3(3)
+FBSD_1.0(2)
+FBSD_1.3(3)
+FBSD_1.2(4)
+FBSD_1.0(2)
+FBSD_1.0(2)
+FBSD_1.3(3)
+FBSD_1.0(2)
+FBSD_1.0(2)
+FBSD_1.0(2)
+FBSD_1.0(2)
+* Global *
+FBSD_1.0(2)
+* Global *
+* Global *
+
+Symbol versions definition
+==========================
+
+Symbol version requirement
+==========================
+1 libc.so.7
+
+Dynamic relocations
+===================
+601580    COPY      32  0         15        DYNAMIC   __stack_chk_guard
+
+.plt.got relocations
+====================
+6014c8    JUMP_SLOT 64  0         1         PLTGOT    malloc    
+6014d0    JUMP_SLOT 64  0         2         PLTGOT    cap_ioctls_limit
+6014d8    JUMP_SLOT 64  0         3         PLTGOT    cap_rights_limit
+6014e0    JUMP_SLOT 64  0         5         PLTGOT    atexit    
+6014e8    JUMP_SLOT 64  0         6         PLTGOT    err       
+6014f0    JUMP_SLOT 64  0         7         PLTGOT    strerror  
+6014f8    JUMP_SLOT 64  0         8         PLTGOT    _init_tls 
+601500    JUMP_SLOT 64  0         9         PLTGOT    cap_fcntls_limit
+601508    JUMP_SLOT 64  0         a         PLTGOT    strlen    
+601510    JUMP_SLOT 64  0         b         PLTGOT    __cap_rights_set
+601518    JUMP_SLOT 64  0         c         PLTGOT    cap_enter 
+601520    JUMP_SLOT 64  0         d         PLTGOT    __stack_chk_fail
+601528    JUMP_SLOT 64  0         e         PLTGOT    __error   
+601530    JUMP_SLOT 64  0         f         PLTGOT    __cap_rights_init
+601538    JUMP_SLOT 64  0         10        PLTGOT    exit      
+601540    JUMP_SLOT 64  0         11        PLTGOT    write     
+601548    JUMP_SLOT 64  0         12        PLTGOT    writev    
+601550    JUMP_SLOT 64  0         13        PLTGOT    strcmp    
+
+Notes
+=====
+Note #0
+-------
+Name:                            FreeBSD
+Type:                            ABI_TAG
+Description:                     [b0 d0 10 00]
+
+Note #1
+-------
+Name:                            FreeBSD
+Type:                            HWCAP
+Description:                     [00 00 00 00]
+
+
+
+GNU Hash Table
+==============
+000001B22845D960
+
+SYSV Hash Table
+===============
+000001B22846A090
+
